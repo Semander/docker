@@ -10,7 +10,7 @@
 
 > running docker image:
 
-**docker run -p 80:80 -d semander/node-web-app**
+**docker run -p 80:80 --memory="500m" --cpus="1.0" -d semander/node-web-app**
 
 > finding ID
 
